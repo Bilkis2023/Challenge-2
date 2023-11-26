@@ -100,7 +100,7 @@ h2 {
   width: 300px;
   border: 10px solid rgb(7, 7, 7);
   padding: 10px;
-  margin:30px;
+  margin: 30px;
 }
 
 .Projectsection {
@@ -112,42 +112,63 @@ h2 {
 .Projectsection h2 {
   border-right: 10px solid black;
   padding-right: 20px;
-  margin-right:540px;
+  margin-right: 540px;
   margin-top: 10px;
 }
 
 
-.Projectimage{
+.Projectimage {
   height: 200px;
-  width:300px;
+  width: 300px;
   border: 10px solid rgb(11, 12, 11);
   padding: 10px;
   margin: 30px;
 
 }
+
 .footersection {
   display: flex;
-
+  justify-content:space-between ;
   margin-right: 20px;
   background-color: rgb(176, 180, 179);
 
 
-} 
-
-.contact-info {
-  display:flex;
-  justify-content: flex-end;
 }
 
-/* .footersection h2 {
+#contactmee-mail{
+  color:red;
+  border:3px;
+}
+
+#contactmemobilenumber{
+  color:green;
+  border-radius: 5px;
+}
+#contactmegithub{
+  color:blue;
+  border-radius: 5px; 
+}
+
+
+.contact-info .address{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+  
+
+
+.footersection h2 {
+  display:flex;
+  justify-content:space-between ;
   border-right: 10px solid black;
   padding-right: 20px;
-  margin-right: 1535px;
+  margin-right: 1200px;
   margin-top: 10px;
 }
 h2{
   text-align: center;
-} */
+} 
 
 
 body {
