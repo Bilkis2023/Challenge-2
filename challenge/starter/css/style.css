@@ -70,9 +70,17 @@ h1 {
 h2 {
   text-align: center;
 }
-
-
-.subAboutMe {
+.sectionheading{
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 20px; 
+}
+.sectionheading h2{
+  border-right: 10px solid black;
+  padding-right: 20px;
+  margin-top: 10px;
+}
+.subAboutMe{ 
 
   width: 800px;
   height: 300px;
