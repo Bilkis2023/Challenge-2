@@ -133,6 +133,10 @@ h2 {
   text-shadow: 2px 2px 5px red;
 }
 
+a:hover {
+  background-color: hsl(81, 94%, 51%);
+}
+
 .workImage-2 {
   height: 175px;
   width: 300px;
