@@ -69,18 +69,22 @@ h1 {
 
 h2 {
   text-align: center;
+
 }
-.sectionheading{
+
+.sectionheading {
   display: flex;
   justify-content: space-evenly;
-  margin-right: 20px; 
+  margin-right: 20px;
 }
-.sectionheading h2{
+
+.sectionheading h2 {
   border-right: 10px solid black;
   padding-right: 20px;
   margin-top: 10px;
 }
-.subAboutMe{ 
+
+.subAboutMe {
 
   width: 800px;
   height: 300px;
@@ -91,7 +95,7 @@ h2 {
 
 }
 
-.workSection {
+.sectionheading {
   display: flex;
   justify-content: space-evenly;
 }
@@ -102,8 +106,35 @@ h2 {
   margin-top: 10px;
 }
 
-.workImage {
-  height: 200px;
+.workSection h2 {
+  text-shadow: 2px 2px 5px red;
+}
+
+.workImage-1 {
+  height: 175px;
+  width: 300px;
+  border: 10px solid rgb(7, 7, 7);
+  padding: 10px;
+  margin: 30px;
+}
+
+.sectionheading {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.workSection h2 {
+  border-right: 10px solid black;
+  padding-right: 20px;
+  margin-top: 10px;
+}
+
+.workSection h2 {
+  text-shadow: 2px 2px 5px red;
+}
+
+.workImage-2 {
+  height: 175px;
   width: 300px;
   border: 10px solid rgb(7, 7, 7);
   padding: 10px;
@@ -124,8 +155,31 @@ h2 {
 }
 
 
-.Projectimage {
-  height: 200px;
+.Projectimage-1 {
+  height: 175px;
+  width: 300px;
+  border: 10px solid rgb(7, 7, 7);
+  padding: 10px;
+  margin: 30px;
+
+}
+
+.Projectsection {
+
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Projectsection h2 {
+  border-right: 10px solid black;
+  padding-right: 20px;
+  margin-right: 540px;
+  margin-top: 10px;
+}
+
+
+.Projectimage-2 {
+  height: 175px;
   width: 300px;
   border: 10px solid rgb(7, 7, 7);
   padding: 10px;
@@ -135,52 +189,49 @@ h2 {
 
 .footersection {
   display: flex;
-  justify-content:space-between ;
-  margin-right: 20px;
-  background-color: rgb(176, 180, 179);
-
-
+  justify-content: space-evenly;
+  margin-right: 40px;
 }
 
-#contactmee-mail{
-  color:red;
-  border:3px;
+#contactmee-mail {
+  color: red;
+  border: 3px;
 }
 
-#contactmemobilenumber{
-  color:green;
+#contactmemobilenumber {
+  color: green;
   border-radius: 5px;
 }
-#contactmegithub{
-  color:blue;
-  border-radius: 5px; 
+
+#contactmegithub {
+  color: blue;
+  border-radius: 5px;
 }
 
 
-.contact-info .address{
+.contact-info .address {
   display: flex;
-  justify-content: space-around;
   text-align: center;
 }
-  
+
 
 
 .footersection h2 {
-  display:flex;
-  justify-content:space-between ;
+  display: flex;
   border-right: 10px solid black;
   padding-right: 20px;
   margin-right: 1200px;
   margin-top: 10px;
 }
-h2{
+
+h2 {
   text-align: center;
-} 
-
-
-body {
-  background-color: #fff;
+  text-shadow: 2px 2px 5px red;
 }
+
+
+
+
 
 @media (min-width: 30em) and (max-width: 80em) {
   body {
